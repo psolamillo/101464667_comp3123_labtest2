@@ -13,7 +13,7 @@ export default function Weather() {
 
   const fetchWeather = (city) => {
     setLoading(true);
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${OPEN_WEATHER_API_KEY}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${OPEN_WEATHER_API_KEY}&units=metric`)
       .then(response => {
         if (!response.ok) {
           throw new Error('City not found or API key invalid');
