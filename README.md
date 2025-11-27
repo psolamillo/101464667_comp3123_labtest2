@@ -15,7 +15,7 @@ git clone [https://github.com/YOUR_USERNAME_HERE/101464667_comp3123_labtest2.git
 OR
 
 2. Run on Vercel
-[https://101464667comp3123labtest2vercel.vercel.app/](labtest)
+https://101464667comp3123labtest2vercel.vercel.app/
 
 COMP3123_Labtest2
 Patrick Solamillo
